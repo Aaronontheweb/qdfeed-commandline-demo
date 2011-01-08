@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="QDFeedParser, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="QDFeedParser, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\QDFeedParser.dll</HintPath>
     </Reference>
@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aaronontheweb-RSS.xml" />
+    <Content Include="GoogleNews-Atom.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@ namespace QDFeedAsyncTestClient
 {
     class Program
     {
-        private const string ValidTestFileSysPath = @"..\..\Aaronontheweb-RSS.xml";
+        private const string ValidTestFileSysPath = @"..\..\GoogleNews-Atom.xml";
         private const string ValidTestHttpPath = "http://www.aaronstannard.com/syndication.axd";
         private static bool UseFileSys = true;
 
